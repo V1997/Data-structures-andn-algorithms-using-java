@@ -7,5 +7,5 @@
     },
     "editor.fontSize": 16,
     "editor.tabSize": 6,
-    "editor.cursorStyle": "line-thin"
+    "files.autoSaveDelay": 5000
 }

@@ -24,6 +24,6 @@ public class rotateMatrix{
             }   
             System.out.println();
         }
-        
+        sc.close();
     }
 }

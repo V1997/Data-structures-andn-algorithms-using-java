@@ -1,5 +1,5 @@
-import java.util.*;
-class Main{
+import java.util.Scanner;
+public class rotateMatrix{
     public static void main(String []args){
         Scanner sc = new Scanner(System.in);
         int matrixSize = sc.nextInt();

@@ -1,6 +1,6 @@
 import java.math.BigInteger; 
-import java.util.*;
-class Main{
+import java.util.Scanner;
+class Recursion{
     public static void main(String []args){
         Scanner sc = new Scanner(System.in);
         System.out.println(factorial(BigInteger.valueOf(sc.nextInt())));

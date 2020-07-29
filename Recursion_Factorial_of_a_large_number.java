@@ -1,7 +1,7 @@
 import java.math.BigInteger;
-import java.util.Scanner;
+import java.util.*;
 
-class Recursion {
+public class Recursion_Factorial_of_a_large_number {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -13,6 +13,7 @@ class Recursion {
     if (N == BigInteger.valueOf(0)) {
       return BigInteger.valueOf(1);
     }
+
     return N.multiply(factorial(N.subtract(BigInteger.valueOf(1))));
   }
 }

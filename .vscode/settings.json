@@ -5,7 +5,14 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "editor.fontSize": 16,
+    "files.autoSaveDelay": 5000,
+    "editor.fontFamily": "open sans",
     "editor.tabSize": 6,
-    "files.autoSaveDelay": 5000
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 16,
+    "editor.defaultFormatter": "ecmel.vscode-html-css",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "editor.formatOnPaste": true
 }
